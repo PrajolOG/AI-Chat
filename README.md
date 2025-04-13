@@ -1,16 +1,56 @@
-# ai_chat
+# AI Chat
 
-A new Flutter project.
+An intelligent chat application built with Flutter that combines multiple AI capabilities.
+
+## Features
+
+- 💬 Real-time chat interface
+- 🤖 Multiple AI model support
+- 📷 Image generation capabilities
+- 🖼️ Image analysis and processing
+- 🔒 User authentication
+- 📱 Responsive design
+
+## Tech Stack
+
+- Flutter & Dart
+- Firebase Authentication
+- Hugging Face API Integration
+- Stable Diffusion for image generation
+- Gemini API for chat responses
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+```bash
+git clone https://github.com/PrajolOG/AI-Chat.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install dependencies
+```bash
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Configure API Keys
+   - Add your Hugging Face API key
+   - Set up Firebase configuration
+   - Configure other required API keys
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Run the app
+```bash
+flutter run
+```
+
+## Configuration
+
+Make sure to update the following files with your API keys:
+- `lib/screens/home_screen.dart` - Hugging Face API key
+- `firebase_options.dart` - Firebase configuration
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
